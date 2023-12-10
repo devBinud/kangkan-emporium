@@ -103,8 +103,6 @@ const AddCategory = () => {
                           <input
                             type="text"
                             class="form-control mb-2 mr-sm-2"
-                            value={categoryName}
-                            onChange={handleCategoryNameChange}
                             placeholder="Enter Sub Category Name"
                             style={{ padding: "0 10px" }}
                           />
