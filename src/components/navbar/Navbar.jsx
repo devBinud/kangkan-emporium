@@ -33,21 +33,17 @@ const Navbar = () => {
                 data-toggle="dropdown"
                 id="profileDropdown"
               >
-                <img src={profile} className='image-fluid' alt="profile" />
+                <img src={profile} className="image-fluid" alt="profile" />
               </a>
               <div
                 class="dropdown-menu dropdown-menu-right navbar-dropdown"
                 aria-labelledby="profileDropdown"
               >
-                <a 
-                href='#!'>
-                class="dropdown-item"
+                <a href="#!" class="dropdown-item">
                   <i class="ti-settings text-primary"></i>
                   Change Password
                 </a>
-                <a 
-                href='#!'
-                class="dropdown-item">
+                <a href="#!" class="dropdown-item">
                   <i class="ti-power-off text-primary"></i>
                   Logout
                 </a>
