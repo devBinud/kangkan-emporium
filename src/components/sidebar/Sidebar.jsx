@@ -68,7 +68,9 @@ const Sidebar = () => {
               </ul>
             </div>
           </li>
-          <li class="ml-3 text-secondary mt-2"><i className='fa-solid fa-eye'></i> Other Pages</li>
+          <li class="ml-3 text-secondary mt-2">
+            <i className="fa-solid fa-eye"></i> Other Pages
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="/">
               <i class="icon-grid menu-icon"></i>
@@ -184,36 +186,10 @@ const Sidebar = () => {
             </div>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              data-toggle="collapse"
-              href="#blog"
-              aria-expanded="false"
-              aria-controls="ui-basic"
-            >
-              <i class="icon-layout menu-icon"></i>
+            <a class="nav-link" href="/stock-updates">
+              <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Stock Updates</span>
-              <i class="menu-arrow"></i>
             </a>
-            <div class="collapse" id="blog">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item">
-                  <Link class="nav-link" to="/">
-                    Add
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/">
-                    Add New Blog
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/">
-                    All Blogs
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </li>
           <li class="nav-item">
             <a

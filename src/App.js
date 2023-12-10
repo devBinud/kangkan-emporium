@@ -8,6 +8,7 @@ import AddProducts from "./pages/productsWrapper/AddProductsWrapper";
 import AllProducts from "./pages/productsWrapper/AllProductsWrapper";
 import AddDiscounts from './pages/discountsWrapper/AddDiscountsWrapper';
 import AllDiscounts from "./pages/discountsWrapper/AllDiscountsWrapper";
+import StockUpdates from './pages/stockUpdatesWrapper/AllStockUpdatesWrapper';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/all-products" element={<AllProducts />}></Route>
         <Route path="/add-discounts" element={<AddDiscounts />}></Route>
         <Route path="/all-discounts" element={<AllDiscounts />}></Route>
+        <Route path="/stock-updates" element={<StockUpdates />}></Route>
       </Routes>
     </>
   );

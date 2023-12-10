@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Navbar.css";
 import logo from "../../assets/logo/logo.png";
-import logo__small from "../../assets/image/logo_small.png";
+import logo__small from "../../assets/logo/logo.png";
 import profile from "../../assets/profile/user.png";
 
 
@@ -13,7 +13,7 @@ const Navbar = () => {
           <a class="navbar-brand brand-logo mr-5" href="/">
             <img src={logo} class="mr-2" alt="logo" />
           </a>
-          <a class="navbar-brand brand-logo-mini" href="index.html">
+          <a class="navbar-brand brand-logo-mini" href={"/"}>
             <img src={logo__small} alt="logo" />
           </a>
         </div>
