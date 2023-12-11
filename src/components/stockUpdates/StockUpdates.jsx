@@ -19,7 +19,7 @@ const StockUpdates = () => {
                       <thead>
                         <tr>
                           <th>#</th>
-                          <th>Product Category</th>
+                          <th>Product Categories</th>
                           <th>Total Products</th>
                           <th>Amount</th>
                           <th>Deadline</th>
