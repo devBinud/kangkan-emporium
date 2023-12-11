@@ -29,6 +29,9 @@ const StockUpdates = () => {
                           <td>1</td>
                           <td>Herman Beck</td>
                           <td>$ 77.99</td>
+                          <td>
+                            <a href="#!">See all products</a>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
